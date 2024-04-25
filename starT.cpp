@@ -11,10 +11,27 @@ void runTests(void);
 
 // Write starT per specifictions in the lab writeup
 
+
 string starT(int width, int height)
 {
   string result = "";
-  result = "stub"; // TODO: remove this line, replace with correct code
+  if ((width < 2) || (height < 2))
+    return result;
+  
+  for (int row = 1; row = width; row++)
+    {
+      result += "*";
+    }
+
+  for (int row = 2; row <= height / 2; row++)
+    {
+      result += " ";
+      for int col = 3; col <= width ; col++)
+        {
+        result = "*";
+      }
+      
+  result = "\n"; // TODO: remove this line, replace with correct code
   return result;
 }
 
